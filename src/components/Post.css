@@ -1,0 +1,78 @@
+.post {
+  max-width: 400px;
+  height: auto;
+  background-color: white;
+  border: 1px solid lightgray;
+  margin-bottom: 45px;
+  box-shadow: 5px 5px 5px #393e46;
+}
+
+.post-image {
+  width: 100%;
+  object-fit: contain;
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+}
+
+.post-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: auto;
+  height: auto;
+}
+
+.post-icons > .MuiSvgIcon-root {
+  margin: 10px;
+}
+
+.post-icons > .MuiSvgIcon-root:nth-child(4) {
+  margin-left: auto;
+}
+
+.post-text {
+  font-weight: normal;
+  padding: 20px;
+}
+
+.post-header {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.post-avatar {
+  margin-right: 10px;
+}
+
+.post-user {
+  margin-right: 10px;
+}
+
+.post-commentBox {
+  display: flex;
+  margin-top: 10px;
+}
+
+.post-comments {
+  padding: 20px;
+}
+
+.post-input {
+  flex: 1;
+  border: none;
+  padding: 10px;
+  border: none;
+  outline: none;
+}
+
+.post-button {
+  flex: 0;
+  border: none;
+}
+
+@media all and (max-width: 700px) {
+  .post {
+    width: 85%;
+  }
+}
